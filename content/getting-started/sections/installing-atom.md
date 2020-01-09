@@ -83,14 +83,12 @@ $ sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any
 $ sudo apt-get update
 ```
 
-You can now install Atom using `apt-get` (or `apt` on Ubuntu):
+You can now install Atom using `snap`:
 
 ``` command-line
 # Install Atom
-$ sudo apt-get install atom
+$ sudo snap install atom --classic
 
-# Install Atom Beta
-$ sudo apt-get install atom-beta
 ```
 
 Alternatively, you can download the [Atom .deb package](https://atom.io/download/deb) and install it directly:
